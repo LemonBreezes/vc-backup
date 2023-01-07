@@ -450,14 +450,6 @@ BUFFER and ASYNC as interpreted as specified in vc.el."
 ;; - extra-dir-menu ()
 
 ;; - conflicted-files (dir)
-
-;;; This snippet enables the Backup VC backend so it will work once
-;;; this file is loaded.  By also marking it for inclusion in the
-;;; autoloads file, installing packaged versions of this should work
-;;; without users having to monkey with their init files.
-
-;;;###autoload
-(add-to-list 'vc-handled-backends 'Backup t)
 
 (provide 'vc-backup)
 
